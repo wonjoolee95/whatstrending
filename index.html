@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<link rel="icon" href="images/logo.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Trending</title>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="js/functions.js"></script>
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- My CSS -->
+	<link href="styles/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+	<div class="container">
+
+		<!-- Jumotron -->	
+		<div class="row">
+			<div class="jumbotron">
+				<h1>What's Trending?</h1>
+				<p>Watch, read, and see what is trending right now in real time!</p>
+				<img src="images/logo.png"  width="50" height="50" alt="trending">
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-4 col-sm-12 col-xs-12">
+				<table id="yt_table" class="table table-hover table-striped">
+					<tr>
+						<th colspan="2">YouTube (trending videos)</th>
+					</tr>
+				</table>
+			</div>
+
+			<div class="col-md-4 col-sm-12 col-xs-12">
+				<table id="cnn_table" class="table table-hover table-striped">
+					<tr>
+						<th colspan="2">CNN (top news)</th>
+					</tr>
+				</table>
+			</div>
+
+			<div class="col-md-4 col-sm-12 col-xs-12">
+				<table id="rd_table" class="table table-hover table-striped">
+					<tr>
+						<th colspan="2">Reddit (hot r/all)</th>
+					</tr>
+				</table>
+			</div>
+		</div>
+
+<!--
+			<div class="col-lg-4 col-lg-offset-2 col-md-6 col-xs-12">
+				<table class="table table-hover table-striped">
+					<tr>
+						<th colspan="2">Imgur (most viral)</th>
+					</tr>
+					<tr>
+						<td>1.</td>
+						<td id="imgr_1">imgr_1</td>
+					</tr>
+					<tr>
+						<td>2.</td>
+						<td id="imgr_2">imgr_2</td>
+					</tr>
+					<tr>
+						<td>3.</td>
+						<td id="imgr_3">imgr_3</td>
+					</tr>
+					<tr>
+						<td>4.</td>
+						<td id="imgr_4">img_4</td>
+					</tr>
+					<tr>
+						<td>5.</td>
+						<td id="imgr_5">imgr_5</td>
+					</tr>
+					<tr>
+						<td>6.</td>
+						<td id="imgr_6">imgr_6</td>
+					</tr>
+					<tr>
+						<td>7.</td>
+						<td id="imgr_7">imgr_7</td>
+					</tr>
+					<tr>
+						<td>8.</td>
+						<td id="imgr_8">imgr_8</td>
+					</tr>
+					<tr>
+						<td>9.</td>
+						<td id="imgr_9">imgr_9</td>
+					</tr>
+					<tr>
+						<td>10.</td>
+						<td id="imgr_10">imgr_10</td>
+					</tr>
+				</table>
+			</div>
+
+			<div class="col-lg-4 col-md-6 col-xs-12">
+				<table class="table table-hover table-striped">
+					<tr>
+						<th colspan="2">iTunes Music (top chart)</th>
+					</tr>
+					<tr>
+						<td>1.</td>
+						<td id="rd_1">rd_1</td>
+					</tr>
+					<tr>
+						<td>2.</td>
+						<td id="rd_2">yt_2</td>
+					</tr>
+					<tr>
+						<td>1.</td>
+						<td id="rd_3">rd_3</td>
+					</tr>
+					<tr>
+						<td>4.</td>
+						<td id="rd_4">rd_4</td>
+					</tr>
+					<tr>
+						<td>5.</td>
+						<td id="rd_5">rd_5</td>
+					</tr>
+					<tr>
+						<td>6.</td>
+						<td id="rd_6">rd_6</td>
+					</tr>
+					<tr>
+						<td>7.</td>
+						<td id="rd_7">rd_7</td>
+					</tr>
+					<tr>
+						<td>8.</td>
+						<td id="rd_8">rd_8</td>
+					</tr>
+					<tr>
+						<td>9.</td>
+						<td id="rd_9">rd_9</td>
+					</tr>
+					<tr>
+						<td>10.</td>
+						<td id="rd_10">rd_10</td>
+					</tr>
+				</table>
+			</div>
+-->
+		<br><br><br>
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="panel-footer"></div>	
+			</div>		
+		</div>
+
+
+	</div>
+
+
+	<!-- jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+	<!-- JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</body>
+</html>
