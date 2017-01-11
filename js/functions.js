@@ -43,10 +43,6 @@ $(document).ready(function() {
     //     }
     // });
 
-    // var xml = $.parseXML("https://itunes.apple.com/us/rss/topsongs/limit=10/explicit=true/xml"),
-    // $xml = $(xml),
-    // $test = $xml.find('title');
-    // console.log($test.text());
 
  
 });
