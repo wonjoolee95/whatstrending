@@ -11,6 +11,10 @@
 
 }
 
+.panel-footer > a {
+	color: inherit;
+}
+
 th {
 	text-align: center;
 }
